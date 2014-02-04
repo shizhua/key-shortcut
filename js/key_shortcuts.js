@@ -96,4 +96,14 @@ jQuery(document).ready(function() {
             }
         };
         jQuery(document).on('keydown keyup keypress', documentKeys);
+		jQuery(document).on("click", ".keyboard",
+function() {
+    jQuery('.modal-content').show();
+	 jQuery('body').append('<div class="overlay"></div>');
+});
+jQuery(document).on("click", ".overlay",
+function() {
+   jQuery('.overlay').remove();
+	jQuery('.modal-content').hide();
+});	
 });
