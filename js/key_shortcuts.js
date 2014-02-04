@@ -115,7 +115,7 @@ jQuery(document).ready(function() {
 
             switch (myKey) {
                 case 'r':
-                    jQuery.post(MyAjax.ajaxurl, {
+                    jQuery.post(Bigfa.ajaxurl, {
                         action : 'random_post',
                         }, function(data) {
                             window.location.href = data;
