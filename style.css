@@ -1,0 +1,12 @@
+/*keyboard sytle*/
+.keyboard{background:url("img/keyboard_small.png") no-repeat center;display:block;height:22px;margin-right:3px;margin-top:-100px;position:fixed;right:0;top:50%;width:40px}
+.modal-content{background-color:#FFFFFF;border:1px solid rgba(0,0,0,0.2);box-shadow:0 3px 9px rgba(0,0,0,0.5);position:fixed;box-shadow:0 5px 15px rgba(0,0,0,0.5);width:480px;height:380px;top:50%;left:50%;display:none;z-index:99999;margin-top:-191px;margin-left:-241px}
+.modal_keyboardtop{background-color:#DFDFDF;padding:21px 21px 11px;overflow:hidden}
+.keyboard_box{background-color:#FCFCFC;border-radius:5px;box-shadow:0 2px 0 #C8C8C8;float:left;margin-bottom:10px;margin-right:10px;padding:16px 28px}
+.keyboard_letter{color:#737272;float:right;font-family:Dosis,Arial,sans-serif;font-size:19px;font-weight:bold}
+.keyboard_lettertext{clear:both;color:#B9B9B9;float:right;font-size:14px}
+.modal_keyboardbottom{padding:40px 20px;text-align:center}
+.keyboard_bottomtitle.left{color:#767676;margin-right:4px}
+.keyboard_bottomtitle{font-size:21px;font-weight:300}
+.keyboard_bottomtitle.right{color:#1E1E1E}
+.keyboard_bottomtext{color:#ABABAB;font-family:Nunito,Arial;font-size:13px;font-weight:300}
